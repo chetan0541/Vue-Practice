@@ -4,7 +4,7 @@
     message: "hello"
   };*/
   
-var myViewModel = new Vue({
+  var myViewModel = new Vue({
     el: '#my_view',
     data: {
     name: "Ashley",
@@ -17,20 +17,8 @@ var myViewModel = new Vue({
     data: {
     newname: "asfasf",
     newage: 24214,
-    newmessage: "qwdwqf"
+    newmessage: "qwdwqf",
+    image:"./earth.jpg",
+    alttext:"its there but not showing up"
     }
   });
-  var myApp = new Vue({
-    el: '#my_app',
-    data: {
-    mymessage: "hello"
-    }
-  });
-/*var app = new Vue(
-    {
-        el: '#app',
-        data: {
-            message: "Hello"
-        }
-    }
-)*/
